@@ -1,0 +1,40 @@
+# Recursos originals de treball que no s'han de publicar
+/img/DONARLESMANS_LOGO_FACTURES.png
+/img/dar-la-mano_gris.bmp
+
+# Variables d'entorn, secrets i credencials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
+
+# Fitxers temporals i còpies de seguretat
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*~
+*.log
+/tmp/
+/temp/
+
+# Fitxers auxiliars del sistema operatiu
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Configuració local d'editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependències locals accidentals
+node_modules/
